@@ -1,0 +1,23 @@
+/* Reset styles */
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./js/index.js" defer></script>
+    <script type="module" src="/main.js" defer></script>
+  </head>
+  <body class="gap-0 md:flex md:w-full lg:w-full">
+    <load ="partials/header.html" />
+    <main class="main font-futura lg:flex lg:w-full absolute">
+      <h1 class="w-0 h-0 overflow-hidden">CONTACT</h1>
+      <div class="w-1/1 h-1/2 lg:w-6/12 md:h-screen md:w-screen">
+        <iframe
+          class="w-full md:h-full"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.4056613225825!2d28.954328076450395!3d41.01638011892533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caba39360ba2a5%3A0xbb78bb753307b578!2sEsen%20Group%20Pergola%2C%20Tente%2C%20Giyotin%20Cam%20Sistemleri!5e0!3m2!1str!2str!4v1720116904656!5m2!1str!2str"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div
+        class="bg-black w-screen bg-[url('./img/Webp/bg-contact.png')] p-[30px] lg:w-6/12 md:p-[50px] lg:p-[100px] flex flex-col"
+      >
+        <div>
+          <a
+            href=""
+            class="w-1/2 float-left block text-2xl bg-white text-slate-950 pl-2.5 py-1.25 border-b-white border-b border-solid"
+            >ADRES</a
+          ><a
+            href=""
+            class="w-1/2 float-left text-right block text-2xl text-white text-slate-950 pr-2.5 py-1.25 border-b-white border-b border-solid"
+            >FORM</a
+          >
+        </div>
+        <address id="adress" class="p-5 flex flex-col hidden">
+          <ul class="text-white flex-col flex gap-2">
+            <li class="">MERKEZ OFİS</li>
+            <li>
+              Mollahusrev, Ataturk Blv. No:58 D:1502, 34134
+              Fatih/İstanbul/Turkiye
+            </li>
+            <li><a href="tel:905323359400">Tel: 0532 335 94 00</a></li>
+            <li>
+              <a href="email:esen@esengroupyapi.com">esen@esengroupyapi.com</a>
+            </li>
+          </ul>
+        </address>
+        <form action="submit" class="flex flex-col text-white text-2xl">
+          <label for="name" class="text-white text-2xl opacity-30"
+            >Isim:
+          </label>
+          <input
+            class="b-0 bg-transparent border-b-white border-b border-solid text-base text-4xl focus:outline-none"
+            type="text"
+            id="name"
+          />
+          <label for="surname" class="text-white text-2xl opacity-30"
+            >SoyIsim:
+          </label>
+          <input
+            class="b-0 bg-transparent border-b-white border-b border-solid text-base text-4xl focus:outline-none"
+            type="text"
+            id="surname"
+          />
+          <label for="email" class="text-white text-2xl opacity-30"
+            >E-posta:
+          </label>
+          <input
+            class="b-0 bg-transparent border-b-white border-b border-solid text-base text-4xl focus:outline-none"
+            type="email"
+            id="email"
+          />
+          <label for="tel" class="text-white text-2xl opacity-30"
+            >Telefon:
+          </label>
+          <input
+            class="b-0 bg-transparent border-b-white border-b border-solid text-base text-4xl focus:outline-none"
+            type="tel"
+            id="tel"
+          />
+          <label for="form-title" class="text-white text-2xl opacity-30"
+            >Baslik:
+          </label>
+          <input
+            class="b-0 bg-transparent border-b-white border-b border-solid text-base text-4xl focus:outline-none"
+            type="text"
+            id="form-title"
+          />
+          <label for="form-content" class="text-white text-2xl opacity-30"
+            >Mesaj:
+          </label>
+          <textarea
+            class="b-0 bg-transparent border-b-white border-b border-solid text-base text-4xl focus:outline-none"
+            type="text"
+            id="form-content"
+          ></textarea>
+          <button
+            type="submit"
+            class="mt-4 p-2 bg-white text-black font-bold rounded hover:bg-gray-700 focus:outline-none w-1/2"
+          >
+            Gonder
+          </button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

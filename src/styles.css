@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('../assets/fonts/Futura/style.css');
+@import url('./css/reset.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+  --primary-color: #EAEAEA;
+  --secondary-color: #4E4C4C;
+  --thirth-color:#DCDBDB;
+}
+.special-container{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.card-fig-container{
+  background-image: url(./img/pattern.gif);
+  background-repeat: repeat;
+}
+.custom-text-shadow {
+  @apply text-white text-4xl md:text-6xl lg:text-8xl tracking-[6px] md:tracking-[12px];
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
